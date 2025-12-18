@@ -52,11 +52,11 @@ nav ul li a {
     font-size: 20px;
     color: black;
     margin: 10px;
+    padding: 5px;
 }
 
 nav ul li a:hover {
     color: rgb(255, 255, 255);
-    font-size: 20px;
     background-color: rgb(96, 58, 115);
     border-radius: 5px;
     padding: 5px;
@@ -372,4 +372,24 @@ main {
 .contact-form .button:hover {
     opacity: 0.9;
     transform: translateY(-2px);
+}
+
+/* כמה אייקונים */
+
+.social-links {
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-links a {
+    font-size: 28px;
+    color: rgb(96, 58, 115);
+    transition: 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #c77dff;
+    transform: scale(1.15);
 }
