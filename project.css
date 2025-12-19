@@ -255,10 +255,11 @@ a .cv:hover {
 
 .contact-form input, .contact-form select, .contact-form textarea {
     width: 100%;
-    padding: 12px;
+    padding: 10px;
     border-radius: 10px;
     border: 2px solid #ddd;
     margin-bottom: 20px;
+    font-size: 16px;
 }
 
 /* אייקונים*/
@@ -275,6 +276,28 @@ a .cv:hover {
     transition: 0.3s;
 }
 
+.social-links a:hover {
+    color: rgb(0, 0, 0);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(96, 58, 115,0.3);
+    cursor: pointer;
+}
+
+.formbutton {
+    background-color: rgb(96, 58, 115);
+    color: white;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.formbutton:hover {
+    background-color: black;
+    color: rgb(96, 58, 115);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(96, 58, 115,0.3);
+    cursor: pointer;
+}
+
 /* MEDIA QUERIES */
 
 @media (max-width: 768px) {
@@ -288,6 +311,14 @@ a .cv:hover {
         gap: 10px;
     }
     .card {
-        width: 100%; 
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-form {
+        padding: 15px;
+        width: 95%;
     }
 }
