@@ -1,6 +1,5 @@
 /*settings */
 html, body {
-    height: 100%;
     margin: 0;
     overflow-x: hidden; 
     box-sizing: border-box;
@@ -313,6 +312,7 @@ a .cv:hover {
     .card {
         width: 90%;
         margin: 0 auto;
+        min-width: 0;
     }
 }
 
