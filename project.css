@@ -122,10 +122,6 @@ main {
 
 /* ABOUT PAGE */ 
 
-.aboutbody {
-    background-color: white; 
-}
-
 .about-page {
     display: flex;
     gap: 40px;
@@ -205,6 +201,7 @@ a .cv:hover {
     flex-direction: column;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     transition: 0.3s;
+    margin-bottom: 30px;
 }
 
 .card:hover {
