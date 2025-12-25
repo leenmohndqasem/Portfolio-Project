@@ -3,6 +3,7 @@ html, body {
     margin: 0;
     overflow-x: hidden; 
     box-sizing: border-box;
+    height: 100%;
 }
 
 *, *:before, *:after {
@@ -10,9 +11,13 @@ html, body {
 }
 
 /* HOME PAGE */
-.homebody {
+
+body {
     display: flex;
     flex-direction: column;
+}
+
+.homebody {
     background-image: url(wave.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,7 +122,7 @@ main {
     color: rgb(96, 58, 115);
     font-family: "Crimson Text", serif;
     position: relative;
-    margin-top: auto;
+    margin-top: 40px;
 }
 
 /* ABOUT PAGE */ 
