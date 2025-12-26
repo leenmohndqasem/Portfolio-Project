@@ -18,7 +18,7 @@ body {
 }
 
 .homebody {
-    background-image: url(..images/wave.jpeg);
+    background-image: url(images/wave.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
