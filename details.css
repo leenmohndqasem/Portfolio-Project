@@ -102,6 +102,21 @@ nav a {
     margin-bottom: 25px;
 }
 
+.screenshot {
+    width: 100%;
+    max-width: 300px;
+    cursor: zoom-in;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.screenshot:hover {
+    transform: scale(1.03);
+}
+
+
+
+
 /* Grid */
 .project-grid {
     display: grid;
