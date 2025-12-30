@@ -1,0 +1,202 @@
+body {
+    margin: 0;
+    font-family: 'Crimson Text', serif;
+    color: #111;
+background-color: rgb(255, 255, 255);
+}
+
+/*  Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 60px;
+}
+
+.logo {
+    font-family: 'Miss Fajardose', cursive;
+    font-size: 2.5rem;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #111;
+    font-weight: 500;
+}
+
+/*  Main  */
+.project-details {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+/* Title */
+.project-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    text-align: left;
+    color: rgb(96, 58, 115);
+}
+
+.project-subtitle {
+    font-style: italic;
+    color: #555;
+}
+
+/* Sections */
+.project-section {
+    margin-top: 80px;
+}
+
+.project-section h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    text-align: left;
+    color: rgb(96, 58, 115);
+}
+
+.project-section p {
+    max-width: 750px;
+    line-height: 1.8;
+    color: #000000;
+    font-size: large;
+}
+
+/* Links */
+.project-links {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+
+.project-links a {
+    padding: 12px 24px;
+    border: 1px solid #111;
+    text-decoration: none;
+    color: #111;
+    transition: 0.3s ease;
+}
+
+.project-links a:hover {
+    background: #111;
+    color: #fff;
+}
+
+/* Screenshots */
+.screenshots {
+    margin-top: 30px;
+}
+
+.screenshots img {
+    width: 40%;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.screenshot {
+    width: 100%;
+    max-width: 300px;
+    cursor: zoom-in;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.screenshot:hover {
+    transform: scale(1.03);
+}
+
+
+
+
+/* Grid */
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    margin-top: 80px;
+}
+
+.project-grid ul {
+    padding-left: 18px;
+}
+
+.project-grid li {
+    margin-bottom: 10px;
+}
+
+.project-grid h2 {
+    text-align: left;
+    color: rgb(96, 58, 115);
+    font-size: 2rem;
+}
+
+/* Tools */
+.tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.tools span {
+    border: 1px solid #ccc;
+    padding: 6px 14px;
+    font-size: 1rem;
+}
+
+/* Footer */
+.site-footer {
+    text-align: center;
+    padding: 30px 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/*  Responsive  */
+@media (max-width: 768px) {
+    .project-header h1 {
+    font-size: 2.2rem;
+}
+
+    .project-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+}
+
+    .project-links {
+    flex-direction: column;
+    align-items: flex-start;
+}
+}
+
+/*לחצן*/
+.back-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: rgb(96, 58, 115);
+    color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px; 
+    text-decoration: none;
+    font-size: 24px;
+    z-index: 1000;
+    transition: 0.3s;
+}
+
+.back-btn:hover {
+    background-color: #555;
+}
+
