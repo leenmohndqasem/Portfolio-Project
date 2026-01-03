@@ -333,6 +333,9 @@ a .cv:hover {
         flex-direction: column; 
         gap: 15px;
     }
+    body {
+        background-attachment: scroll;
+    }
     nav ul {
         flex-wrap: wrap;
         justify-content: center;
